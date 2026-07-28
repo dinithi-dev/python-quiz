@@ -52,3 +52,10 @@ elif score == 1:
     print("Nice try! Keep practicing.")
 else:
     print("Better luck next time!")
+
+answer = input("4. What is 5 + 5? ").strip()
+if answer == "10":
+    print("Correct!\n")
+    score += 1
+else:
+    print("Wrong! The correct answer is 10.\n")
